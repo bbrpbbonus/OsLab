@@ -1,17 +1,18 @@
 #include <stdio.h>
 int main(){
-	int a = 1;
+	int num = 1;
 	int sum = 0;
 	float count = 0;
-	while (a > 0){
-		printf("enter a number : ");
-		scanf("%d",&a);
-		sum += a;
+	printf("if you input 0 for stop the loop\n");
+	while (num > 0){
+		printf("enter your number : ");
+		scanf("%d",&num);
+		sum += num;
 		count++;
 	}	
-	float average = sum/count;
+	float average = sum/(count-1);
 	printf("sum = %d",sum);
-	printf("\nAverage = %.2f",average);
+	printf("\nAverage = %.2f \n",average);
 	
 }	
 	
