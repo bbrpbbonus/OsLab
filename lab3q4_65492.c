@@ -11,7 +11,7 @@ int main(){
 	}	
 	float average = sum/count;
 	printf("sum = %d",sum);
-	printf("\nAverage = %f",average);
+	printf("\nAverage = %.2f",average);
 	
 }	
 	
